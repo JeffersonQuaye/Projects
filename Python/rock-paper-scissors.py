@@ -11,6 +11,7 @@ while True:
     user_option = input('Rock, paper or scissors (r/p/s)?: ').lower()
     if user_option not in choices:
         print('Invalid Choice!')
+        continue
 
     computer_options = choice(choices)
 
