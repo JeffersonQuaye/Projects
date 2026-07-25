@@ -44,4 +44,4 @@ def play_game():
             print('Thanks for playing!')
             break
         
-play_game()0
+play_game()
