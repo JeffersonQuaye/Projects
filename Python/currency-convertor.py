@@ -56,4 +56,5 @@ def main():
     converted_amount = conversion(amount, source, target)
     print(f"{amount} {source} = {converted_amount:.2f} {target}")
 
-main()
+if __name__ == "__main__":
+    main()
