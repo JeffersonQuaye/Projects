@@ -63,3 +63,17 @@ else:
 
 print('Quiz complete!')
 print(f'You got {correct_answers}/5 questions correct.')
+
+
+
+
+
+
+
+# def main():
+#     print('Welcome to the Quiz Game!')
+#     print('Choose your category: ')
+#     print('1. Mathematics')
+#     print('2. Science')
+#     print('3. History')
+#     print('4.Psychology')
