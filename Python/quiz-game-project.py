@@ -362,4 +362,5 @@ def main():
         print('Invalid selection.')
     
     
-main()
+if __name__ == '__main__':
+    main()
