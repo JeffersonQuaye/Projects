@@ -39,9 +39,10 @@ def conversion(amount, source, target):
         #     converted_amount = amount * 1.14
             
     exchange_rates = {
-        'USD': {'EUR': 0.85, 'GBP': 0.75},
-        'EUR': {'USD': 1.18, 'GBP': 0.88},
-        'GBP': {'USD': 1.33, 'EUR': 1.14}
+        'USD': {'EUR': 0.85, 'GBP': 0.75, 'HKD': 0.13},
+        'EUR': {'USD': 1.18, 'GBP': 0.88, 'HKD': 0.11},
+        'GBP': {'USD': 1.33, 'EUR': 1.14, 'HKD': 0.10},
+        'HKD': {'USD': 0.13, 'EUR': 0.11, 'GBP': 0.10}
     }
         
     if source == target:
