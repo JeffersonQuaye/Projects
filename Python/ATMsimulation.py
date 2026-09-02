@@ -1,14 +1,17 @@
 class ATM:
     def __init__(self):
         self.balance = 0
+
     
     def check_balance(self):
         return self.balance
+
     
     def deposit(self, amount):
         if amount <= 0:
             raise ValueError('Deposit must be positive')
         self.balance += amount
+
             
     def withdraw(self, amount):
         if amount > self.balance:
@@ -16,13 +19,12 @@ class ATM:
         if amount <= 0:
             raise ValueError('Withdrawal amount must be positive') 
         self.balance -= amount
-            
-
 
 
 class ATM_UI:
     def __init__(self):
         self.atm = ATM()
+        
         
     def get_number(self, prompt):
         while True:
