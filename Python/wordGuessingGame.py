@@ -3,7 +3,7 @@ import re
 
 def read_words():
     try:
-        with open('words.txt', 'r') as file:
+        with open('word.txt', 'r') as file:
             word = file.read().splitlines()
             return word
     except FileNotFoundError:
@@ -28,7 +28,7 @@ def user_input(guessed_letters):
         guess = input('Guess a letter: ').lower()
         if len(guess) != 1:
             print('Please enter a single letter.')
-        elif re.search('[a-z]', guess):
+        elif not re.search('[a-z]', guess):
             print('Please enter only letter from a to z.')
         elif guess in guessed_letters:
             print('You have already guessed that letter.')
@@ -42,7 +42,6 @@ def is_word_guessed(secret_word, guessed_letters):
             return False
     return True
     
-
 
 def main():
     words = read_words()
@@ -64,7 +63,7 @@ def main():
         if guess in secret_word:
             print('Good guess')
             if is_word_guessed(secret_word, guessed_letters):
-                print('Congratulations! You guessed the word:')
+                print('Congratulations! You guessed the word')
                 break
         else:
             print('Wrong guess')
