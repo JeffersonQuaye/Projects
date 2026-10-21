@@ -47,6 +47,7 @@ keys.addEventListener("click", (e) => {
       } else {
         display.textContent = displayedNum + keyContent;
       }
+      calculator.dataset.previousKeyType = "number";
     }
 
     if (action === "decimal") {
@@ -62,7 +63,7 @@ keys.addEventListener("click", (e) => {
       key.classList.add("is-depressed");
       calculator.dataset.previousKeyType = "operator";
     }
-    
+
     Array.from(key.parentNode.children).forEach((k) =>
       k.classList.remove("is-depressed"),
     );
