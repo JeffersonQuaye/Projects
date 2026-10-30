@@ -1,13 +1,13 @@
  
 Wealthome
 
-This is a realestate website devloped by codewithsadee
+This is a realestate website devloped by JeffersonQuaye
 
 
 
 #---------- HEADER ----------#
 
-alt = logo
+alt = wealthome
 
 Home
 Rent
