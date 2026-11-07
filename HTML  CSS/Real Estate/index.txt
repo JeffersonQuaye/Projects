@@ -74,7 +74,7 @@ Explore more
 
 alt = COVA Home Realty
 
------
+-------------- 1  -------------
 New
 
 aria-label = add to favorite
@@ -93,7 +93,7 @@ COVA Home Realty
 <span class="material-symbols-rounded meta-icon" aria-hidden="true">straighten</span>
 1430 sqft 
 
--------
+-------------- 2 --------------------
 alt = Exit Realty
 
 $630.44
@@ -105,7 +105,7 @@ Exit Realty
 4 Bath
 1630 sqft
 
---------
+----------------- 3 ---------------
 alt = The Real Estate Group
 
 $475.22
@@ -117,7 +117,7 @@ The Real Estate Group
 5 Bath
 1240 sqft
 
--------
+----------------- 4 ----------------
 alt = 757 Realty
 
 $576.28
@@ -129,7 +129,7 @@ $576.28
 6 Bath
 1260 sqft
 
----------
+------------------- 5 ------------------
 alt = Beach Pros Realty Inc.
 
 $473.85
@@ -141,7 +141,7 @@ Beach Pros Realty Inc.
 8 Bath
 2350 sqft
 
----------
+----------------------- 6 ---------------------
 alt = Keller Williams Elite Town Center
 
 $105.55
@@ -153,7 +153,7 @@ Keller Williams Elite Town Center
 8 Bath
 1950 sqft
 
-----------
+--------------- 7 ---------------
 alt = All Pros Real Estate
 
 $739.65
@@ -165,7 +165,7 @@ All Pros Real Estate
 4 Bath
 1580 sqft
 
----------
+----------------------- 8 ---------------------
 alt = FIT Realty
 
 $948.55
