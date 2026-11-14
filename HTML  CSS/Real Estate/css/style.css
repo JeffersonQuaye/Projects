@@ -386,7 +386,7 @@ body{
     rotate: 2deg;
 }
 
-.card:where(.badge, .icon-btn){
+.card :where(.badge, .icon-btn){
     position: absolute;
     top: 20px;
 }
@@ -402,6 +402,60 @@ body{
     scale: 0.8;
     transition: var(--transition-duration-quick) var(--transition-easing-quick);
 }
+
+.fav-btn{
+    color: var(--error-100);
+}
+
+.fav-btn.active .material-symbols-outlined{
+    font-variation-settings: 'FILL' 1;    
+}
+
+.card:where(:hover, :focus-within){
+    scale: 1;
+    opacity: 1;
+    visibility: visible;
+}
+
+.card-content{
+    padding: 20px 20px 24px;
+}
+
+.card-title{
+    margin-block: 6px;
+    color: var(--neutral-20);
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    transition: var(--transition-duration-quick) var(--transition-easing-quick);
+}
+
+.card-title:where(:hover, :focus-visible){
+    color: var(--primary-100);
+}
+
+.card-text{
+    color: var(--neutral-40);
+}
+
+.card-meta-list{
+    padding-block-start: 16px;
+    margin-block-start: 16px;
+    border-block-start: 1px solid var(--neutral-90);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.card .meta-item{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    color: var(--neutral-20);
+}
+
+
 
 
 
@@ -609,7 +663,19 @@ body{
   #PROPERTY
 \*-----------------------------------*/
 
+.property{
+    padding-block-start: 60px;
+}
 
+.property .section-text{
+    margin-block: 8px 16px;
+    color: var(--neutral-30);
+}
+
+.property-list{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(2, 1fr));
+}
 
 
 
